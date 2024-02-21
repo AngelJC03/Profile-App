@@ -1,0 +1,84 @@
+/* This is the CSS file for the HTML file */
+
+body {
+    font-size: 24px;
+    margin: 0;
+    background-color: #c8b1ac;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner {
+    background-color: #005A9C;
+    height: 200px;
+    width: 100%;
+    position: relative;
+}
+.banner img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.profileApp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 20px;
+}
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 20px;
+}
+.profileData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.profileTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.profileTable td {
+    border: 1px solid #1a1616;
+    padding: 10px;
+    text-align: center;
+}
+
+.profileTable .prof1 {
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.profileTable h2 {
+    margin-bottom: 10px;
+}
+
+.profileTable img {
+    width: 100%;
+    max-width: 200px; /* Adjust the max-width as needed */
+    height: auto;
+    margin-bottom: 10px;
+}
+.profileTable div {
+    border-bottom: 1px solid #0c0b0b;
+    padding-bottom: 10px;
+}
+
+.labels {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 100px;
+    border: 10px;
+}

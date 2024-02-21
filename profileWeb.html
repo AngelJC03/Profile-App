@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://www.gstatic.com/firebasejs/13.3.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/13.3.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/13.3.0/firebase-analytics.js"></script>
+    <script src="profileWeb.js"></script>
+    <link rel="stylesheet" type="text/css" href="profileWeb.css">
+    <title>My Profile</title>
+</head> 
+<body>
+    <div class="banner">
+        <img src="angelgram-high-resolution-logo-black-transparent.png" alt="Banner Image">
+    </div>
+    <div class ="profileApp" id="profileApp">
+        <h1>Profile App Data <br> </h1>
+            <div class="App">
+                <iframe src="https://thunkable.site/w/Q8Zv0Wb1J-1gNj4Wj14BW" height="725" width="400" title="Web App"></iframe>
+            </div>
+    </div>
+    <div class="profileData" id="profileData">
+        <h1>Profile Data</h1>
+        <table class="profileTable">
+        <tr>
+        <td class="labels">
+            <div>Name</div>
+            <div>Favorite Animal</div>
+            <div>Height</div>
+            <div>Profile Picture</div>
+            <div>Phone Number</div>
+        </td>
+        <td class="prof1">
+        <div id="name1"> <!-- Unique IDs for set 4 -->
+            <h2>Name</h2>
+            <p id="name1"></p>
+        </div>
+        <div id="animal1"> <!-- Unique IDs for set 1 -->
+            <h2>Animal</h2>
+            <p id="animal1"></p>
+        </div>
+        <div id="height1"> <!-- Unique IDs for set 2 -->
+            <h2>Height</h2>
+            <p id="height1"></p>
+        </div>
+        <div id="imageContainer1"> <!-- Unique ID for the container -->
+            <img id="image1" alt="Image"> <!-- Unique ID for the image -->
+        </div>
+        <div id="number1"> <!-- Unique IDs for set 5 -->
+            <h2>Number</h2>
+            <p id="number1"></p>
+        </div> 
+    </td> 
+    <td class="prof2">
+        <div id="name2"> <!-- Unique IDs for set 4 -->
+            <h2>Name</h2>
+            <p id="name2"></p>
+        </div>
+        <div id="animal2"> <!-- Unique IDs for set 1 -->
+            <h2>Animal</h2>
+            <p id="animal2"></p>
+        </div>
+        <div id="height2"> <!-- Unique IDs for set 2 -->
+            <h2>Height</h2>
+            <p id="height2"></p>
+        </div>
+        <div id="imageContainer2"> <!-- Unique ID for the container -->
+            <img id="image2" alt="Image"> <!-- Unique ID for the image -->
+        </div>
+        <div id="number2"> <!-- Unique IDs for set 5 -->
+            <h2>Number</h2>
+            <p id="number2"></p>
+        </div>
+    </td>
+    </tr>
+    </table>
+    </div> 
+</body>
+</html>
